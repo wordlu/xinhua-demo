@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0587_home</title>
+    <g id="扩展设计" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024">
+        <g id="门户设计-左侧导航节点图标" transform="translate(-8.000000, -138.000000)" fill-rule="nonzero">
+            <g id="编组-5" transform="translate(0.000000, 88.000000)">
+                <g id="编组备份-2" transform="translate(0.000000, 40.000000)">
+                    <g id="0587_home" transform="translate(8.000000, 10.000000)">
+                        <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                        <path d="M10,1.66666666 L1.25,8.75 L3.33333334,8.75 L3.33333334,17.5 L16.6666667,17.5 L16.6666667,8.75 L18.75,8.75 L10,1.66666666 Z M8.75,16.25 L8.75,12.0833333 L11.25,12.0833333 L11.25,16.25 L8.75,16.25 Z M15.4166667,8.75 L15.4166667,16.25 L12.5,16.25 L12.5,10.8333333 L7.5,10.8333333 L7.5,16.25 L4.58333334,16.25 L4.58333334,7.54166666 L10,3.33333334 L15.4166667,7.54166666 L15.4166667,8.75 Z" id="形状" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

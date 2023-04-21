@@ -1,0 +1,41 @@
+.el-table {
+  .el-table__body-wrapper,
+  .el-table__fixed-body-wrapper {
+    .redFont {
+      color: $color-status-danger;
+    }
+  }
+
+  .el-table__fixed-body-wrapper {
+    .blueBar {
+      display: inline-block;
+      width: 1px;
+      height: 12px;
+      margin: 0 10px -1px 10px;
+      background-color: $color-button-text;
+    }
+    .moreBtn {
+      font-size: 12px;
+      color: $color-button-text;
+      cursor: pointer;
+    }
+  }
+}
+
+.grayBackground {
+  padding: 10px 20px 20px 20px;
+}
+
+.whiteBackground {
+  height: 100%;
+  padding: 0 10px 0 10px;
+  background-color: $color-white;
+}
+
+.F2TableHeaderBackground {
+  .table_head {
+    th {
+      background-color: $color-table-header-bg !important;
+    }
+  }
+}

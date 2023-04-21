@@ -1,0 +1,581 @@
+.el-col-5 {
+	// height: 710px;
+	// border: 1px solid red;
+	padding: 0;
+}
+.search-item {
+	padding: 2px 0 10px 0;
+}
+.time-item {
+	width: 235px;
+}
+.costStatistics .el-radio-button--mini .el-radio-button__inner {
+	padding: 5px 9px;
+	// border: 1px solid #DCDFE6;
+	// border-color: #0D3F98 !important;
+}
+.costStatistics .el-radio-button.el-radio-button--mini.is-active {
+	// border: 0 solid #DCDFE6;
+	// border: 1px solid #0D3F98;
+	// border-color: #0D3F98 !important;
+	border-radius: 2px 0 0 2px;
+}
+.costStatistics .el-radio-button:last-child .el-radio-button__inner {
+	border-radius: 0 2px 2px 0;
+}
+.costStatistics .el-radio-button:first-child .el-radio-button__inner {
+	border-radius: 2px 0 0 2px;
+}
+.btn-tabs {
+	padding: 10px 10px 5px 10px;
+	background-color: #fff;
+}
+// 左上容器
+.left-container {
+	height: 350px;
+	border: 1px solid #dbdbdb;
+}
+// 保险资管产品标题
+.product-title {
+	// 资管产品标题
+	.asset-title {
+		padding: 7px 0 7px 10px;
+		font-size: 14px;
+		font-weight: 700;
+		color: #929292;
+	}
+	// 累计计提标题
+	.accrual-title {
+		padding: 0 0 0 10px;
+		font-size: 12px;
+		color: #929292;
+	}
+}
+.product-module {
+	border-bottom: 13px solid #fff;
+	// background-color: red;
+}
+.product-module2 {
+	background-color: #f2f2f2;
+}
+.a {
+	height: 150px;
+}
+.prd-bottom {
+	position: absolute;
+	right: 0;
+	bottom: -10px;
+}
+.left-amount {
+	position: absolute;
+	right: 0;
+	bottom: 12px;
+	.amount-same {
+		.el-col-10 {
+			// padding-left: 10px;
+			text-align: left;
+		}
+	}
+	.amount-icon {
+		.el-col-10 {
+			// padding-left: 10px;
+			text-align: left;
+		}
+	}
+	// padding:0 10px;
+}
+.sum {
+	// text-align: right;
+	.amount-same {
+		.el-col-11 {
+			text-align: center;
+		}
+	}
+	.amount-icon {
+		.el-col-11 {
+			text-align: center;
+		}
+	}
+}
+.prd-item {
+	height: 144px;
+}
+.b {
+	display: flex;
+
+	/* top: 10px; */
+	align-items: center;
+	justify-content: space-between;
+	height: 75px;
+	// padding-right: 10px;
+}
+// 上年同期和同比
+.amount-content {
+	// display: flex;
+	// align-items: center;
+	// justify-content: space-between;
+	// height: 74px;
+	// padding:20px 10px;
+	text-align: right;
+	.same-item {
+		.el-col-13 {
+			padding-left: 10px;
+			text-align: left;
+		}
+	}
+	// 同期标题样式
+	.amount-same {
+		font-size: 12px;
+		color: #929292;
+	}
+	// icon以及同比标题样式
+	.amount-icon {
+		// padding-right: 13px;
+		margin-top: 6px;
+		font-size: 12px;
+		color: #929292;
+		span i {
+			margin-right: 10px;
+			color: #dc6060;
+		}
+	}
+	.top-amount {
+		.amount-icon {
+			// padding-right: 17px;
+		}
+	}
+}
+.mng-pay .mouth-name {
+	position: absolute;
+	// top: 9px;
+	bottom: 16px;
+	left: 22px;
+	font-size: 12px;
+	color: #929292;
+}
+// 系统内以及系统金额
+.system {
+	display: flex;
+
+	/* top: 10px; */
+	align-items: center;
+	justify-content: space-between;
+	height: 75px;
+	// padding:23px 0;
+	font-weight: 700;
+	color: #4a4a4a;
+	text-align: right;
+	.system-in {
+		padding: 5px 0;
+		font-size: 12px;
+	}
+	.system-amount {
+		font-size: 14px;
+		span {
+			font-size: 21px;
+		}
+	}
+	.sys-amt {
+		padding-right: 28px;
+		color: #4a4a4a;
+		text-align: center;
+		span {
+			font-size: 21px;
+		}
+	}
+	.top-amount {
+		text-align: right;
+	}
+}
+.grid-right {
+	margin-bottom: 10px;
+}
+// 管理费计提情况,tab切换
+
+// 托管费容器
+.tow-container {
+	height: 350px;
+	background-color: #fff;
+	border: 1px solid #dbdbdb;
+}
+// 管理费统计情况
+.management-container1 {
+	background-color: #fff;
+	border-right: 1px solid #dbdbdb;
+}
+.management-container {
+	background-color: #fff;
+	// border-right: 1px solid #DBDBDB;
+}
+.unit {
+	position: absolute;
+	top: 9px;
+	right: 12px;
+	font-size: 12px;
+	color: #929292;
+}
+
+// 最右侧内容标题
+.content-right {
+	// width: 342px;
+	height: 710px;
+	padding: 0 !important;
+	background-color: #fff;
+	border: 1px solid #dbdbdb;
+	.el-row {
+		padding: 10px 20px 0 20px;
+	}
+	.right-title {
+		height: 40px;
+		padding: 0 20px;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 40px;
+		color: #4a4a4a;
+		border-bottom: 1px solid #dbdbdb;
+	}
+}
+.el-row .left-title {
+	height: 40px;
+	padding: 0 10px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 40px;
+	background-color: #fff;
+	border-bottom: 1px solid #dbdbdb;
+	.el-col-12 {
+		border-right: 0;
+	}
+	// 管理费top5标题
+	.icon-title {
+		i {
+			margin-right: 2px;
+		}
+
+		font-size: 12px;
+		font-weight: normal;
+		color: #929292;
+		text-align: right;
+	}
+}
+// 最右侧,托管费标题
+.tuoguan-title {
+	margin-top: 32px;
+	font-size: 14px;
+	color: #4a4a4a;
+}
+// 最右侧账户的二级标题
+.two-title {
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #4a4a4a;
+}
+// 最右侧,警告
+.bank-waring {
+	margin-top: 72px;
+	color: #929292;
+}
+// 最右侧费用标题
+.cost-title {
+	margin: 20px 0 6px 0;
+	font-size: 14px;
+	color: #4a4a4a;
+}
+// ::v-deep .el-tabs__header{
+// 	height: 22px;
+// }
+
+.costStatistics {
+	.ratioStyle{
+		padding-left: 5px;
+	}
+	.item-tip span{
+		margin-left: 5px;
+	}
+	.cont-row{
+		background-color: #fff !important;
+	}
+	.money {
+		display: inline-block;
+		width: 112px;
+		font-size: 21px;
+		text-align: center;
+		span {
+			font-size: 14px;
+		}
+	}
+
+	.el-tabs--card > .el-tabs__header .el-tabs__item {
+		height: 20px !important;
+		padding-left: 0;
+		line-height: 20px;
+		border-left: none;
+	}
+	.el-tabs--card > .el-tabs__header .el-tabs__item:nth-child(2) {
+		padding-left: 0;
+	}
+	.el-tabs__nav-scroll {
+		height: 20px !important;
+		padding: 0 9px;
+		line-height: 20px;
+		// background-color: red !important;
+	}
+	.el-tabs__header {
+		height: 20px !important;
+		margin: 0 !important;
+		line-height: 20px;
+		border-bottom: none;
+		.el-tabs__nav {
+			border: none !important;
+		}
+		// background-color: blue !important;
+	}
+	.el-tabs__nav-wrap {
+		height: 20px !important;
+		line-height: 20px;
+		// background-color: yellowgreen !important;
+	}
+	// .el-tabs__item{
+	// 	height: 20px !important;
+	// 	line-height: 20px;
+	// }
+	.el-tabs__active-bar {
+		height: 0 !important;
+	}
+	div.el-tabs__item {
+		padding: 0 10px;
+		font-size: 12px !important;
+		color: #b6b6b6;
+	}
+	div.el-tabs__item.is-active {
+		font-weight: 700;
+		color: #4a4a4a !important;
+	}
+	div.el-tabs__nav-wrap::after {
+		height: 0 !important;
+	}
+	.el-radio-button__orig-radio:checked + .el-radio-button__inner {
+		border-color: #0d3f98 !important;
+		border-left: 1px solid;
+	}
+}
+.title-item1 {
+	height: 40px;
+	padding: 0 10px;
+	line-height: 40px;
+	background-color: #fff;
+	border-right: 1px solid #dbdbdb;
+}
+.mana-fee{
+	font-weight: 600;
+	border-bottom:1px solid #DBDBDB;
+}
+.tip-title{
+	font-size:12px;
+	color:#929292;
+	text-align: right;
+	border-bottom:1px solid #DBDBDB;
+}
+.pieStyle{
+	height: 268px;
+	background-color: #fff;
+}
+.bx-asset{
+	background: #fff;
+	border-right: 1px solid #DBDBDB;
+}
+.red-icon{
+	padding-right:9px;
+	color:#DC6060;
+}
+.green-icon{
+	padding-right:9px;
+	color:rgb(12, 169, 12);
+}
+.white-icon{
+	padding-right:9px;
+	color:#fff;
+}
+.img-div{
+	height: 308px;
+	img{
+		position: absolute;
+		top:30%;
+		right: 23%;
+	}
+	div{
+		position: absolute;
+		top:79%;
+		right: 0%;
+		width: 100%;
+		font-size: 14px;
+		color: #929292;
+		text-align: center;
+	}
+}
+.tg-pay{
+	height: 288px;
+	img{
+		position: absolute;
+		top:30%;
+		right: 36%;
+	}
+	div{
+		position: absolute;
+		top:79%;
+		right: 0%;
+		width: 100%;
+		font-size: 14px;
+		color: #929292;
+		text-align: center;
+	}
+}
+.content-item {
+	border-right: 1px solid #dbdbdb;
+}
+.content-item1 {
+	position: relative;
+	height: 156px;
+	border-bottom: 1px solid #dbdbdb;
+}
+.content-item2 {
+	padding: 10px;
+	font-size: 14px;
+	color: #929292;
+}
+.content-item3 {
+	height: 156px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 156px;
+	text-align: center;
+}
+.content-item4 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 10px 0;
+	font-size: 12px;
+	color: #929292;
+}
+.content-item5,
+.content-item10,
+.content-item16,
+.content-item21 {
+	padding: 0 0 6px 0;
+}
+.content-item6 {
+	height: 152px;
+	padding: 10px 0;
+}
+.content-item7 {
+	padding: 0 0 0 10px;
+	font-size: 14px;
+	color: #929292;
+}
+.content-item8 {
+	height: 85px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 85px;
+	text-align: center;
+}
+.content-item9 {
+	padding-left: 10px;
+	font-size: 12px;
+	color: #929292;
+}
+
+.content-item11 {
+	position: relative;
+	height: 100%;
+	border-left: 1px solid #dbdbdb;
+}
+.content-item12 {
+	height: 67px;
+	padding: 0;
+	margin: 0 0 0 10px;
+	// border-bottom: 1px solid #dbdbdb;
+}
+.lineStyle{
+	// width: 100%;
+	height: 1px;
+	margin:0 10px;
+	background-color: #DBDBDB;
+}
+.content-item13,
+.content-item15,
+.content-item18,
+.content-item20 {
+	font-size: 12px;
+	color: #929292;
+}
+.content-item15{
+	position: relative;
+	top: 35%;
+	bottom: 0;
+}
+.content-item14,
+.content-item19 {
+	padding-top: 8px;
+	font-size: 16px;
+	font-weight: 700;
+}
+.content-item20 {
+	position: relative;
+	top: 47%;
+	bottom: 0;
+}
+.content-item17 {
+	position: relative;
+	// bottom: -24px;
+	height: 67px;
+	padding:10px 0;
+	// position: absolute;
+	margin: 0 0 0 10px;
+}
+.el-tooltip__popper[x-placement^='top'] .popper__arrow {
+	border-top-color: rgba(0, 0, 0, 0.5);
+}
+.el-tooltip__popper[x-placement^='top'] .popper__arrow::after {
+	border-top-color: rgba(0, 0, 0, 0.5);
+}
+// 控制主题颜色
+.atooltip {
+	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.el-progress-bar__inner {
+	border-radius: 0 !important;
+}
+.el-progress-bar__outer {
+	background-color: #ededed !important;
+	border-radius: 0 !important;
+}
+.content-tip {
+	padding: 3px 0;
+	div {
+		display: inline-block;
+		width: 8px;
+		height: 8px;
+		margin-right: 10px;
+		font-size: 12px;
+		background-color: #4485d2;
+		border-radius: 50%;
+	}
+	.payStyle {
+		background-color: #ededed !important;
+	}
+	.payStyleNum {
+		background-color: #F39818 !important;
+	}
+	.payStyleRatio {
+		background-color: #30BDB3 !important;
+	}
+	.assoutStyle{
+		background-color: #9ABA55 !important;
+	}
+	.bankstyle{
+			background-color: #819BC9 !important;
+	}
+}

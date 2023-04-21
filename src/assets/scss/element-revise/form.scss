@@ -1,0 +1,165 @@
+// 弹出框的基础样式
+.baseDialog {
+  color: $color-mainfont;
+  .el-dialog__header {
+    height: 50px;
+    padding: 0 20px;
+    line-height: 50px;
+    background-color: rgba($color-main, 0.1);
+    border-bottom: 1px solid $color-line-button;
+    .el-dialog__title {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .el-dialog__headerbtn {
+      top: 16px;
+    }
+  }
+  .el-dialog__body {
+    padding: 0;
+    color: $color-mainfont;
+    .maxHeight {
+      max-height: calc(70vh - 100px);
+      overflow-y: auto;
+    }
+  }
+  .el-dialog__footer {
+    padding: 10px 20px;
+    border-top: 1px solid $color-line-button;
+    .el-button {
+      padding: 9px 14px;
+    }
+  }
+  .el-button + .el-button {
+    margin-left: 20px;
+  }
+}
+// 普通带forn表单的弹出框
+.fromDialog1 {
+  .el-dialog__body {
+    padding: 20px 20px 0 20px;
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 80px;
+    }
+    .style1 {
+      grid-template-columns: 1fr 1fr;
+      .fullBox {
+        grid-column: 1/3;
+      }
+    }
+    .style2 {
+      grid-template-columns: 1fr 1fr 1fr;
+      .fullBox {
+        grid-column: 1/4;
+      }
+    }
+    .el-form-item__label {
+      padding-bottom: 10px;
+      line-height: 14px;
+    }
+    .el-select {
+      width: 100%;
+    }
+  }
+}
+// 有不可修改项的forn表单弹出框样式
+.fromDialog2 {
+  .showFrom > .title,
+  .editFrom > .title {
+    height: 40px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 40px;
+    border-bottom: 1px solid $color-line-button;
+    .titleTwo {
+      font-size: 12px;
+      color: $color-icon;
+    }
+    .rightBtn {
+      float: right;
+      margin: 0;
+      font-size: 12px;
+      line-height: 40px;
+    }
+  }
+  .showFrom {
+    padding: 0 20px;
+    border-bottom: 1px solid $color-line-button;
+    .showFromData {
+      font-size: 12px;
+      line-height: 16px;
+      .item {
+        padding: 10px 0;
+        .label {
+          font-weight: bold;
+          text-align: right;
+        }
+      }
+    }
+    .listGroup {
+      padding: 20px 0 10px 0;
+      > ul {
+        padding: 0;
+        margin: 0;
+      }
+      .tagBtn {
+        margin: 0 10px 10px 0;
+        cursor: pointer;
+        background-color: $color-white;
+        border-color: $color-main;
+        border-radius: 2px;
+      }
+    }
+  }
+  .editFrom {
+    padding: 0 20px;
+    margin: 14px 0 0 0;
+    .el-row {
+      margin: 20px 0 0 0;
+    }
+    .el-date-editor {
+      width: 100%;
+    }
+    .listInformation {
+      padding: 8px 0 18px 0;
+      line-height: 28px;
+      .el-row {
+        margin-top: 6px;
+      }
+    }
+  }
+}
+
+.TipsDialog {
+  .el-dialog__header {
+    display: none;
+  }
+  .tipBody {
+    padding: 64px;
+    font-size: 16px;
+    color: $color-mainfont;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1580px) {
+  .fromDialog1 .el-dialog__body .style2 {
+    grid-template-columns: 1fr 1fr;
+    .fullBox {
+      grid-column: 1/3;
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .fromDialog1 .el-dialog__body .style1 {
+    grid-template-columns: 1fr;
+    .fullBox {
+      grid-column: 1/2;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.DS_Store
+Thumbs.db
+
+node_modules/
+package.json
+yarn.lock
+
+# dev/build artifacts
+/dist/
+/tests/e2e/videos/
+/tests/e2e/screenshots/
+/tests/unit/coverage/
+jsconfig.json
+
+# Local Env Files
+.env.local
+.env.*.local
+
+# Log Files
+*.log
+name-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+proxyTable.js
+
+# Unconfigured Editors
+.idea
+*.suo
+*.ntvs*
+*.njsoproj
+*.sln
+*.sw*
+
+.stylelintcache
+.vscode/chrome

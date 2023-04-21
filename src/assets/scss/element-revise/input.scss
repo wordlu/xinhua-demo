@@ -1,0 +1,21 @@
+// 修改输入框的颜色
+.el-input {
+  .el-input__inner {
+    height: 36px;
+    line-height: 36px;
+    border-color: $color-line-input;
+  }
+}
+
+.el-input .el-input__inner:focus {
+  border-color: $color-main;
+}
+
+// 日期输入框中间部分的宽度
+.el-date-editor .el-range-separator {
+  width: 20px;
+}
+
+.el-input__prefix {
+  color: #929292;
+}

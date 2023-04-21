@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0091_chart_line</title>
+    <g id="扩展设计" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024">
+        <g id="门户设计-左侧导航节点图标" transform="translate(-8.000000, -298.000000)" fill-rule="nonzero">
+            <g id="编组-5" transform="translate(0.000000, 88.000000)">
+                <g id="编组备份-6" transform="translate(0.000000, 200.000000)">
+                    <g id="0091_chart_line" transform="translate(8.000000, 10.000000)">
+                        <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                        <path d="M3.75,2.5 L2.5,2.5 L2.5,17.5 L17.5,17.5 L17.5,16.25 L3.75,16.25 L3.75,2.5 Z M12.9583333,9.08333334 L9.91666666,6.08333334 L5.83333334,10.2083333 L5.83333334,11.9583333 L9.91666666,7.83333334 L12.9583333,10.875 L17.0416667,6.75 L17.0416667,4.95833334 L12.9583333,9.08333334 Z" id="形状" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

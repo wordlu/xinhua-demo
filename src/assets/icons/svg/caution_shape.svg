@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0038_caution_shape</title>
+    <g id="工程文档" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新华CPAD系统-提示输入账户密码" transform="translate(-1621.000000, -322.000000)" fill-rule="nonzero">
+            <g id="编组-2备份-3" transform="translate(1605.000000, 310.000000)">
+                <g id="0038_caution_shape" transform="translate(16.000000, 12.000000)">
+                    <path d="M8,1.33333333 L0.666666672,14 L15.3333333,14 L8,1.33333333 Z M8.5,12 L7.5,12 L7.5,11 L8.5,11 L8.5,12 Z M7.5,10 L7.5,6 L8.5,6 L8.5,10 L7.5,10 Z" id="形状" fill="#FF9900"></path>
+                    <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

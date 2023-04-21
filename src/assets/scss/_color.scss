@@ -1,0 +1,32 @@
+// main
+$color-main: #409EFF;
+$color-white: #fff;
+$color-black: #303133;
+$color-main-hover: #DE680B;
+
+// status color
+$color-status-success: #0faf0f; // success
+$color-status-warning: #e1af0f; // waring
+$color-status-danger: #af0f0f; // danger
+
+// text color
+$color-mainfont: #4a4a4a; // main font
+$color-icon: #929292; // icon输入框说明叙述文字
+$color-border-hover: #b6b6b6; // hover边框
+$color-button-text: #0D3F98;
+
+// line color
+$color-line-button: #dbdbdb;
+$color-line-card: #ededed;
+$color-line-nav: rgba($color-mainfont, 0.3);
+$color-line-input: rgba($color-mainfont, 0.2);
+$color-panel-boder: $color-line-button;
+
+// background color
+$color-body-bg: #f2f2f2;
+$color-background: $color-body-bg;
+// $color-menu-hover: ;
+$color-menu-hover: #2D5D99;
+$color-menu-bg: #1E1D21;
+$color-button-bg: #409EFF;
+$color-table-header-bg: #F5F8FA;

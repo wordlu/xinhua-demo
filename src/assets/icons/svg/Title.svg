@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Title</title>
+    <desc>Created with Sketch.</desc>
+    <g id="v1.1.0_20191216" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="bevel">
+        <g id="监控大屏" transform="translate(-49.000000, -143.000000)" stroke="#2CE5F6" stroke-width="2">
+            <g id="编组-23" transform="translate(30.000000, 130.000000)">
+                <g id="编组-14">
+                    <g id="Title" transform="translate(13.656854, 12.656854)">
+                        <polyline id="路径" stroke-opacity="0.688292177" transform="translate(12.020022, 6.843146) rotate(135.000000) translate(-12.020022, -6.843146) " points="8.02002174 10.8431458 8.02002174 2.84314575 8.02002174 2.84314575 16.0200217 2.84314575"></polyline>
+                        <polyline id="路径备份" stroke-opacity="0.35317417" transform="translate(6.020022, 6.843146) rotate(135.000000) translate(-6.020022, -6.843146) " points="2.02002174 10.8431458 2.02002174 2.84314575 2.02002174 2.84314575 10.0200217 2.84314575"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

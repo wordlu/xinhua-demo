@@ -1,0 +1,108 @@
+// BaseForm formItem公共样式提取
+.formItem .el-form-item__label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 40px;
+  line-height: 16px;
+}
+
+// 页面整体样式
+.configMain {
+  height: 100vh;
+  background-color: $color-body-bg;
+
+  .bodyWrap {
+    height: 100%;
+    background-color: #fff;
+  }
+}
+
+/* 整个滚动条 */
+.el-aside::-webkit-scrollbar {
+  width: 0;
+  height: 10px;
+}
+
+/* 滚动条上的滚动滑块 */
+.el-aside ::-webkit-scrollbar-thumb {
+  background-color: #49b1f5;
+
+  /* 关键代码 */
+  background-image: -webkit-linear-gradient(45deg,
+      rgba(255, 255, 255, 0.4) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.4) 75%,
+      transparent 75%,
+      transparent);
+  border-radius: 32px;
+}
+
+/* 滚动条轨道 */
+.el-aside::-webkit-scrollbar-track {
+  background-color: #dbeffd;
+  border-radius: 32px;
+}
+
+.el-tag.el-tag--info {
+  max-width: 160px !important;
+}
+
+// mr10表示margin-right:10px,其他样式依次类推
+$pixel: 5, 10, 15, 20, 25, 30, 40, 50;
+$position: top, right, bottom, left;
+$position-class: 't', 'r', 'b', 'l';
+
+@each $item in $pixel {
+  @each $p in $position {
+    $index: index($position, $p);
+    $class: nth($position-class, $index);
+
+    .m#{$class}#{$item} {
+      margin-#{$p}: $item + px;
+    }
+
+    .p#{$class}#{$item} {
+      padding-#{$p}: $item + px;
+    }
+  }
+}
+
+.border-line {
+  border: 1px solid #E6E9EB;
+  border-radius: 4px;
+}
+
+
+.el-table--border {
+  border: 1px solid #EBEEF5 !important;
+}
+
+.echart-tip-icon {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 4px;
+  border-radius: 10px;
+}
+
+.echart-tip-triangle {
+  display:inline-block;
+  width: 0;
+  height: 0;
+}
+
+.echart-tip-diamond {
+  display:inline-block;
+  width: 7px;
+  height: 7px;
+  transform: rotateZ(45deg) skew(10deg,10deg);
+}
+
+.echart-tip-rect {
+  display:inline-block;
+  width: 7px;
+  height: 7px;
+}
